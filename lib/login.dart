@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:library_system/loginButton.dart';
 import 'package:library_system/textField.dart';
 
 
@@ -35,8 +36,13 @@ class LoginScreen extends StatelessWidget {
             ),
           ),
             const SizedBox(height: 17),
-             const loginfield(hintText:"password"
+
+             const loginfield(hintText:"username"
              ),
+
+              const SizedBox(height: 20),
+              const loginbutton(),
+
 
             ],
           ),
